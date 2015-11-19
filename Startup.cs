@@ -24,7 +24,7 @@ namespace uam_wesley
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("Hello World! This is Craig!");
             });
         }
 
